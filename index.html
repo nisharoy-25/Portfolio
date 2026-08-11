@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <!-- SEO Meta Tags -->
+    <title>Nisha Roy| Web Developer Portfolio</title>
+    <meta name="description" content="Full-stack web developer specializing
+          in React and Node.js. Available for freelance projects.">
+    <meta name="keywords" content="web developer, React, JavaScript, portfolio">
+    <meta name="author" content="Nisha Roy">
+ 
+    <!-- Open Graph (for Facebook, LinkedIn, WhatsApp previews) -->
+    <meta property="og:title" content="Nisha Roy| Web Developer">
+    <meta property="og:description" content="Check out my portfolio and projects!">
+    <meta property="og:image" content="https://nisharoy.com/preview.jpg">
+    <meta property="og:url" content="https://nisharoy.com">
+    <meta property="og:type" content="website">
+ 
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nisha Roy| Web Developer">
+    <meta name="twitter:description" content="Check out my portfolio!">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header class="site-header">
+            <nav class="navbar">
+                <div class="logo">NR</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="theme toggle" title="Toggle Dark" aria-label="Toggle dark mode">🌙</button>
+                <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+            </nav>
+        </header>
+        <main>
+            <section class="hero-section" id="hero">
+                 <h1>Hi,I'm Nisha Roy👋</h1>
+                 <p class="tagline">I'm a student from Bengaluru and aspiring web developer,learning HTML,CSS, and Javascript to build amazing websites.</p> 
+                <div class="hero-button">
+                    <a href="#projects" class="btn btn-primary">View My Project</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+         </section>
+            <section id="about" class="about-section">
+           <h2>About Me</h2>
+           <div class="about-content">
+            <figure>
+              <img src="134259014989389937.jpg" alt="profile pic" width="300px">
+              <figcaption>Nisha Roy - student</figcaption>
+            </figure>
+            <div class="about-text">
+                <p>
+                 I'm a student and currently learning HTML,CSS,Javascript AND React
+               </p>
+            </div>
+          </div>
+      </section>
+         <section id="skills" class="skills-section">
+            <h2>My skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item" data-level="60">HTML</div>
+                <div class="skill-item" data-level="60">CSS</div>
+                <div class="skill-item" data-level="50">Javascript</div>
+                <div class="skill-item" data-level="50">React</div>
+             </div>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>React</li>
+            </ul> 
+    </section>
+    <section id="projects" class="project-section">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <article class="project-grid" data-category="web">
+                <img src="weather.jpg" alt="weather project" width="300px">
+                <h3>Weather App</h3>
+                <p>Real-time weather dashboard using API</p>
+                <div class="project-tag">
+                    <span class="tag">React</span>
+                    <span class="tag">API</span>
+               </div>
+               <a href="#" class="btn">Live Demo</a>
+               <a href="#" class="btn">GitHub</a>
+          </article>
+                      <article class="project-grid" data-category="web">
+                <img src="crypto.jpg" alt="bird project" width="300px">
+                <h3>Crypto Tracker</h3>
+                <p>Real-time market dashboard with dynamic charts</p>
+                <div class="project-tag">
+                    <span class="tag">React</span>
+                    <span class="tag">API</span>
+                    <span class="tag">Chart.js</span>
+               </div>
+               <a href="#" class="btn">Live Demo</a>
+               <a href="#" class="btn">GitHub</a>
+          </article>          
+                      <article class="project-grid" data-category="web">
+                <img src="recipe.jpg" alt="flower project" width="300px">
+                <h3>Recipe Finder</h3>
+                <p>Search and filter meal recipes using external API</p>
+                <div class="project-tag">
+                    <span class="tag">React</span>
+                    <span class="tag">API</span>
+                    <span class="tag">CSS3</span>
+               </div>
+               <a href="#" class="btn">Live Demo</a>
+               <a href="#" class="btn">GitHub</a>
+          </article>
+        </div>
+            <div class="project-card">
+            <h3>Project1</h3>
+            <p>Description of the project</p>
+            <a href="#">View Project</a>
+       </div>
+    </section>
+        <section id="contact" class="contact-section">
+        <h2>Get in Touch</h2>
+        <p>Have a project in mind</p>
+        <form action="">
+            <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+            </div>
+             <div class="form-group">
+                <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+             </div>
+             <div class="form-group">
+                <label for="subject">Subject</label>
+            <select name="subject" id="subject">
+                <option value="">select a topic</option>
+                <option value="hire">I want to hire you</option>
+                <option value="collab">I want to collaborate</option>
+                <option value="others">Others</option>
+            </select>
+             </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Tell me about your project..">
+          </textarea>
+        </div>
+       <button type="submit">Send Message 🚀</button>
+         </form>
+         
+        </section>
+        </main>
+    <footer class="site-footer">
+        <p>&copy; 2026 nisha roy all rights reserved</p>
+        <nav aria-label="social links">
+            <a href="github" target="_blank">GitHub</a>
+            <a href="linkedin" target="_blank">Linkedin</a>
+            <p>Email: <a href="mailto:nisharoy@gmail.com">nisharoy@gmail.com</a></p>
+        </nav>
+    </footer>
+</body>
+</html>
