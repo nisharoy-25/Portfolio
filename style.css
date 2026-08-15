@@ -30,7 +30,7 @@ body{
     z-index: 10000;
 }
 .logo{
-    font: size 28px;
+    font-size:  28px;
     font-weight: 500;
     color: var(--white);
 }
@@ -204,7 +204,7 @@ contact-form{
     padding: 40px 5%;
 }
 
-@media (max-midth:768px) {
+@media (max-width:768px) {
     .nav-links{
         display: none;
     }
@@ -228,17 +228,23 @@ contact-form{
     cursor: pointer;
 }
 
-@media (max-width:768) {
+@media (max-width:768px) {
     .menu-toggle{
         display: block;
+    }
+    .nav-links{
+        display: none;
         position: absolute;
         top: 70px;
         left: 0;
-        width: 100px;
+        width: 100%;
         background: #1B4F72;
         flex-direction: column;
         text-align: center;
         padding: 20px 0;
         gap: 20px;
     }
-}
+    .nav-links.open{
+        display: flex;
+    }
+}
